@@ -38,9 +38,7 @@ class MyLogin extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, '/catalog');
                 },
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.yellow,
-                ),
+                style: TextButton.styleFrom(backgroundColor: Colors.yellow),
                 child: const Text('ENTER'),
               )
             ],

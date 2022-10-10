@@ -90,7 +90,7 @@ class _CartTotal extends StatelessWidget {
                 ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Buying not supported yet.')));
               },
-              style: TextButton.styleFrom(foregroundColor: Colors.white),
+              style: TextButton.styleFrom(backgroundColor: Colors.white),
               child: const Text('BUY'),
             ),
           ],
